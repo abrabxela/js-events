@@ -1,0 +1,72 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  padding-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+input {
+  border-width: 1px;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  padding-top: 5px;
+}
+.submit {
+  background: rgb(67, 67, 252);
+  color: aliceblue;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: rgb(110, 155, 194);
+  border-style: solid;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+}
+.todotitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+.todotext{
+  font-size: 14px;
+  font-weight: normal;
+}
+.delete{
+  background: red;
+  color: white;
+  border-radius: 5px;
+  border-width: 0;
+  width: 80px;
+  height: 20px;
+}
+.todos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.todo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  margin: 5px;
+  border-radius: 5px;
+  border-color: black;
+  border: 3px;
+}
+.todo p{
+  padding: 0px;
+}
+.todo h2{
+  margin: 0px;
+}
