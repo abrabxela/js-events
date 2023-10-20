@@ -21,11 +21,9 @@ button.addEventListener("click", function (event) {
   deleted.innerText = "Delete";
   divtodo.append(deleted);
   event.preventDefault();
-  const del = document.querySelectorAll(".delete");
-  del.forEach((btn) => {
-    btn.addEventListener("click", (event) => {
-      const block = event.target.closest(".todo");
-      block.remove();
-    });
+  const del = document.querySelector(".delete");
+  del.addEventListener("click", (event) => {
+    const block = event.target.closest(".todo");
+    block.remove();
   });
 });
